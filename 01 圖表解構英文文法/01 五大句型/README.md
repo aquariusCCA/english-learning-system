@@ -35,15 +35,15 @@ page: 11
 | 5 | S. + Vt. + O. + O.C. | The gifts make me very happy. |
 
 ## 🎯 重點整理：動詞分類（判斷句型的鑰匙）
-```
-動詞
-├─ 不及物動詞 (Vi.)
-│   ├─ 完全不及物：S. + Vi.
-│   └─ 不完全不及物：S. + Vi. + S.C.
-└─ 及物動詞 (Vt.)
-    ├─ 完全及物：S. + Vt. + O.
-    ├─ 授與動詞：S. + Vt. + I.O. + D.O.
-    └─ 不完全及物：S. + Vt. + O. + O.C.
+```mermaid
+graph LR
+    V["動詞"] --> Vi["不及物 Vi."]
+    V --> Vt["及物 Vt."]
+    Vi --> Vi1["完全不及物<br/>S + Vi."]
+    Vi --> Vi2["不完全不及物<br/>S + Vi. + S.C."]
+    Vt --> Vt1["完全及物<br/>S + Vt. + O."]
+    Vt --> Vt2["授與動詞<br/>S + Vt. + I.O. + D.O."]
+    Vt --> Vt3["不完全及物<br/>S + Vt. + O. + O.C."]
 ```
 
 ## 小節導航
