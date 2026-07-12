@@ -46,12 +46,8 @@ book: 圖表解構英文文法
 | --- | --- | --- |
 | （待補） |  |  |
 
-> 💡 若裝了 Dataview 外掛，可用下列查詢自動列出所有主題筆記：
-> ```dataview
-> TABLE difficulty AS 難度, status AS 狀態, page AS 頁
-> FROM #文法 AND -#章節索引 AND -"00 使用說明與範本"
-> SORT chapter ASC
-> ```
+> 💡 **手動維護**：上面對照表可自行補充跨章易混主題。
+> （日後若改用 Obsidian，可加裝 Dataview 外掛自動列出所有主題筆記。）
 
 ## 相關
 - [[README|總導航]]　·　[[01 圖表解構英文文法/README|全書目錄]]　·　[[易錯點總表]]
