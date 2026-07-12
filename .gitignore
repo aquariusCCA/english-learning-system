@@ -1,0 +1,20 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# === Obsidian ===
+# 保留 vault 設定與外掛，只忽略本機 UI 狀態與快取
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# === Claude Code ===
+.claude/settings.local.json
+
+# === 其他 ===
+*.tmp
+*~
