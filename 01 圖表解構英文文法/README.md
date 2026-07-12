@@ -1,6 +1,5 @@
 ---
 tags:
-  - grammar
   - moc
   - 章節索引
 book: 圖表解構英文文法

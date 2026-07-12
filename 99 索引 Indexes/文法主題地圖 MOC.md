@@ -1,7 +1,6 @@
 ---
 tags:
   - moc
-  - grammar
 book: 圖表解構英文文法
 ---
 
@@ -53,7 +52,7 @@ book: 圖表解構英文文法
 > 💡 若裝了 Dataview 外掛，可用下列查詢自動列出所有主題筆記：
 > ```dataview
 > TABLE difficulty AS 難度, status AS 狀態, page AS 頁
-> FROM #grammar AND -#章節索引 AND -"00 使用說明與範本"
+> FROM #文法 AND -#章節索引 AND -"00 使用說明與範本"
 > SORT chapter ASC
 > ```
 
