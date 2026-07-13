@@ -17,7 +17,7 @@
   - 提示框用 **GitHub-style alerts**（`> [!NOTE]`/`[!TIP]`/`[!IMPORTANT]`/`[!WARNING]`，大寫，標題放內文粗體）；可折疊用 HTML `<details>`。**不要用 Obsidian 專屬 callout**（`[!abstract]` 等小寫）。
   - 圖表：結構圖用 **Mermaid**；手繪大圖用 **Excalidraw** 匯出 SVG 嵌入。
   - 連「根 README（總導航）」用**相對連結** `[文字](../README.md)`（bare `[[README]]` 會歧義，有 21 個 README）；帶資料夾的 `[[章名/README|…]]` 才用 wikilink。
-- **標籤**：主分類依書的**類型**開 namespace（`文法/*`、日後 `單字/*`…）＋通用功能標籤；**新核心標籤先登記到 `標籤系統.md` 再用**。
+- **標籤**：主分類依**內容類型**開 namespace（`文法/*`、日後 `單字/*`…）＋通用功能標籤；**新核心標籤先登記到 `標籤系統.md` 再用**。
 - **索引擺放**：整理「**書**」的（主題地圖 MOC、圖表索引）→ 放該書 `索引/`；整理「**你**」的（易錯點總表、複習排程）→ 放頂層 `99 索引 Indexes/`，加「書」欄位。
 - **原始課本截圖不進版控**（用完可刪或放 gitignore 的暫存夾）。
 - **Dataview 僅 Obsidian 有效**：索引改為手動維護，勿再加 Dataview 區塊。
