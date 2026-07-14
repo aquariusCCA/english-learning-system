@@ -1,0 +1,11 @@
+{
+  // 本筆記庫建議安裝的 VS Code 擴充。
+  // 打開此資料夾時，VS Code 會提示是否一鍵安裝（不會自動安裝）。
+  "recommendations": [
+    // [[雙向連結]] 可點擊，並提供反向連結與關係圖（近似 Obsidian 體驗）
+    "foam.foam-vscode",
+    // GitHub-style alerts（> [!NOTE] 等）在內建預覽渲染成彩色提示框
+    "yahyabatulu.vscode-markdown-alert"
+  ]
+  // 註：Mermaid 圖表在此版 VS Code 為內建（mermaid-markdown-features），免裝擴充。
+}
