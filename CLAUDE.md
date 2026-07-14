@@ -13,9 +13,9 @@
 - **做筆記流程**：見 `00 使用說明與範本/使用說明.md`「✍️ 記一篇新筆記的流程」（唯一真相來源，不在此重複）。
 - **多書結構**：**一套教材＝一資料夾**（「書」是統稱，可為**書本**或 **Notion 課程**等；如 `01 圖表解構英文文法/…`），內含 章節（或分冊）資料夾 + `索引/`（該書 MOC、圖表索引）（＋ `Excalidraw/` 視需要）。
 - **忠實度**：內容**忠實轉錄來源**（書本或既有筆記如 Notion，以來源為準）；來源沒有、由 AI 補充的（自測題、額外易錯、延伸）→ 小節標題加「**💬 AI 補充**」。**範本區塊是彈性的：來源沒有的區塊就省略或標 💬（不硬填、不捏造）；來源有、範本沒有對應區塊 → 新增區塊保留（不丟來源內容）。範本是最小起點、非上限。**
-- **跨工具相容寫法**（VS Code / GitHub / Obsidian 都要能顯示）：
-  - 提示框用 **GitHub-style alerts**（`> [!NOTE]`/`[!TIP]`/`[!IMPORTANT]`/`[!WARNING]`，大寫，標題放內文粗體）；可折疊用 HTML `<details>`。**不要用 Obsidian 專屬 callout**（`[!abstract]` 等小寫）。
-  - 圖表：結構圖用 **Mermaid**；手繪大圖用 **Excalidraw** 匯出 SVG 嵌入。
+- **跨工具相容寫法**（GitHub／Obsidian 原生；**VS Code 需另裝擴充**，已列於 `.vscode/extensions.json`）：
+  - 提示框用 **GitHub-style alerts**（`> [!NOTE]`/`[!TIP]`/`[!IMPORTANT]`/`[!WARNING]`，大寫，標題放內文粗體）；可折疊用 HTML `<details>`。**不要用 Obsidian 專屬 callout**（`[!abstract]` 等小寫）。⚠️ **VS Code 內建預覽不渲染 alert**（退化成引用區塊）→ 需裝 `yahyabatulu.vscode-markdown-alert`。
+  - 圖表：結構圖用 **Mermaid**（新版 VS Code 內建、舊版需 `bierner.markdown-mermaid`）；手繪大圖用 **Excalidraw** 匯出 SVG 嵌入。
   - 連「根 README（總導航）」用**相對連結** `[文字](../README.md)`（bare `[[README]]` 會歧義，有 21 個 README）；帶資料夾的 `[[章名/README|…]]` 才用 wikilink。
 - **標籤**：主分類依**內容類型**開 namespace（`文法/*`、日後 `單字/*`…）＋通用功能標籤；**新核心標籤先登記到 `標籤系統.md` 再用**。
 - **索引擺放**：整理「**書**」的（主題地圖 MOC、圖表索引）→ 放該書 `索引/`；整理「**你**」的（易錯點總表、複習排程）→ 放頂層 `99 索引 Indexes/`，加「書」欄位。
