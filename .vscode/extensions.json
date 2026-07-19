@@ -5,7 +5,9 @@
     // [[雙向連結]] 可點擊，並提供反向連結與關係圖（近似 Obsidian 體驗）
     "foam.foam-vscode",
     // GitHub-style alerts（> [!NOTE] 等）在內建預覽渲染成彩色提示框
-    "yahyabatulu.vscode-markdown-alert"
+    "yahyabatulu.vscode-markdown-alert",
+    // ```markmap 心智圖區塊在內建預覽渲染成互動心智圖（規則見 使用說明 5️⃣）
+    "phoihos.markdown-markmap"
   ]
   // 註：Mermaid 圖表在此版 VS Code 為內建（mermaid-markdown-features），免裝擴充。
 }
