@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 340" font-family="'PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#fde4f2"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#e6007e" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <text x="20" y="26" font-size="15" font-weight="bold" fill="#c2185b">過去完成進行式的承諾範圍：只到參考點為止</text>
+
+  <!-- ══ 上排：誤解模型 ══ -->
+  <text x="40" y="58" font-size="14" font-weight="bold" fill="#c62828">❌ 誤解：以為「參考點之後還必須繼續做」</text>
+
+  <line x1="40" y1="130" x2="628" y2="130" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="195" y="104" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">had been waiting（一直等 for over an hour）</text>
+  <rect x="90" y="112" width="210" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+
+  <!-- 誤以為的延伸段 -->
+  <text x="392" y="104" font-size="12" fill="#c62828" text-anchor="middle">之後必須繼續？</text>
+  <rect x="308" y="112" width="160" height="16" rx="3" fill="url(#hatch)" opacity="0.4" stroke="#c62828" stroke-dasharray="6 4"/>
+  <line x1="374" y1="106" x2="402" y2="134" stroke="#c62828" stroke-width="4"/>
+  <line x1="374" y1="134" x2="402" y2="106" stroke="#c62828" stroke-width="4"/>
+
+  <!-- 參考點 X -->
+  <line x1="292" y1="122" x2="308" y2="138" stroke="#333" stroke-width="3.5"/>
+  <line x1="292" y1="138" x2="308" y2="122" stroke="#333" stroke-width="3.5"/>
+  <text x="300" y="158" font-size="12.5" fill="#333" text-anchor="middle">she showed up</text>
+  <text x="300" y="174" font-size="11.5" fill="#666" text-anchor="middle">參考點（過去簡單式）</text>
+
+  <!-- ══ 下排：實際意思 ══ -->
+  <text x="40" y="212" font-size="14" font-weight="bold" fill="#2e7d32">✅ 實際：只承諾「到參考點為止一直開著」；之後鏡頭沒拍</text>
+
+  <!-- 鏡頭外區（先畫，讓時間軸壓過去） -->
+  <rect x="312" y="258" width="240" height="44" rx="6" fill="#f5f5f5" stroke="#999" stroke-dasharray="5 4"/>
+  <text x="432" y="276" font-size="12.5" fill="#666" text-anchor="middle" font-weight="bold">鏡頭外</text>
+  <text x="432" y="293" font-size="11.5" fill="#666" text-anchor="middle">繼續？停止？由情境決定</text>
+
+  <line x1="40" y1="282" x2="628" y2="282" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="195" y="256" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">had been waiting（一直等）</text>
+  <rect x="90" y="264" width="210" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+
+  <!-- 參考點 X -->
+  <line x1="292" y1="274" x2="308" y2="290" stroke="#333" stroke-width="3.5"/>
+  <line x1="292" y1="290" x2="308" y2="274" stroke="#333" stroke-width="3.5"/>
+  <text x="300" y="310" font-size="12.5" fill="#333" text-anchor="middle">she showed up</text>
+  <text x="300" y="326" font-size="11.5" fill="#666" text-anchor="middle">參考點（過去簡單式）</text>
+</svg>
