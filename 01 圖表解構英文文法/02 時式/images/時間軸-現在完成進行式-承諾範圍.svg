@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 375" font-family="'PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#fde4f2"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#e6007e" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <text x="20" y="26" font-size="15" font-weight="bold" fill="#c2185b">現在完成進行式的承諾範圍：只到「現在」為止</text>
+
+  <!-- ══ 上排：硬承諾 ══ -->
+  <text x="40" y="58" font-size="14" font-weight="bold" fill="#2e7d32">✅ 時態的硬承諾：從起點到「現在」一直開著；之後鏡頭沒拍</text>
+
+  <!-- 鏡頭外區（先畫，讓時間軸壓過去） -->
+  <rect x="312" y="94" width="240" height="44" rx="6" fill="#f5f5f5" stroke="#999" stroke-dasharray="5 4"/>
+  <text x="432" y="112" font-size="12.5" fill="#666" text-anchor="middle" font-weight="bold">鏡頭外（現在之後）</text>
+  <text x="432" y="129" font-size="11.5" fill="#666" text-anchor="middle">繼續？停止？由情境決定</text>
+
+  <line x1="40" y1="118" x2="628" y2="118" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="195" y="92" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">has been raining（一直下 for three days）</text>
+  <rect x="90" y="100" width="210" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+
+  <!-- 參考點：現在 -->
+  <line x1="300" y1="102" x2="300" y2="134" stroke="#333" stroke-width="3.5"/>
+  <text x="300" y="152" font-size="12.5" fill="#333" text-anchor="middle">現在（說話這一刻）</text>
+  <text x="300" y="168" font-size="11.5" fill="#666" text-anchor="middle">參考點——08 的在過去，這裡的就是現在</text>
+
+  <!-- ══ 下排：兩種合法收尾 ══ -->
+  <text x="40" y="210" font-size="14" font-weight="bold" fill="#2e7d32">✅ 「現在」之後怎麼收尾？兩種情境都合法</text>
+
+  <!-- 情境 A：還在下 -->
+  <line x1="40" y1="258" x2="628" y2="258" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="195" y="232" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">has been raining（一直下）</text>
+  <rect x="90" y="240" width="210" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+  <rect x="308" y="240" width="120" height="16" rx="3" fill="url(#hatch)" opacity="0.45" stroke="#2e7d32" stroke-dasharray="6 4"/>
+  <line x1="300" y1="244" x2="300" y2="272" stroke="#333" stroke-width="3.5"/>
+  <text x="300" y="288" font-size="11.5" fill="#666" text-anchor="middle">現在</text>
+  <text x="445" y="252" font-size="12" font-weight="bold" fill="#2e7d32">還在下（默認讀法）</text>
+  <text x="445" y="268" font-size="11.5" fill="#666">It's still raining（期間詞＋沒停的跡象）</text>
+
+  <!-- 情境 B：剛停 -->
+  <line x1="40" y1="330" x2="628" y2="330" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="180" y="304" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">has been crying（一直哭）</text>
+  <rect x="90" y="312" width="180" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+  <text x="285" y="306" font-size="11.5" fill="#666" text-anchor="middle">剛停</text>
+  <line x1="300" y1="316" x2="300" y2="344" stroke="#333" stroke-width="3.5"/>
+  <text x="300" y="360" font-size="11.5" fill="#666" text-anchor="middle">現在</text>
+  <text x="445" y="324" font-size="12" font-weight="bold" fill="#2e7d32">剛停、痕跡還新鮮——也合法</text>
+  <text x="445" y="340" font-size="11.5" fill="#666">Have you been crying?（眼睛紅）</text>
+</svg>
