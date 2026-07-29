@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 375" font-family="'PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#fde4f2"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#e6007e" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <text x="20" y="26" font-size="15" font-weight="bold" fill="#c2185b">未來完成進行式的承諾範圍：只到未來的截止點為止</text>
+
+  <!-- ══ 上排：硬承諾 ══ -->
+  <text x="40" y="58" font-size="14" font-weight="bold" fill="#2e7d32">✅ 硬承諾：從起點（常在過去）一路開到未來截止點；之後鏡頭沒拍</text>
+
+  <!-- 鏡頭外區（先畫，讓時間軸壓過去） -->
+  <rect x="392" y="94" width="200" height="44" rx="6" fill="#f5f5f5" stroke="#999" stroke-dasharray="5 4"/>
+  <text x="492" y="112" font-size="12.5" fill="#666" text-anchor="middle" font-weight="bold">鏡頭外（截止點之後）</text>
+  <text x="492" y="129" font-size="11.5" fill="#666" text-anchor="middle">繼續？停止？由情境決定</text>
+
+  <line x1="40" y1="118" x2="628" y2="118" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="225" y="92" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">will have been teaching（for 30 years）</text>
+  <rect x="70" y="100" width="310" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+
+  <!-- 現在（說話這一刻，動作跨過它） -->
+  <line x1="200" y1="100" x2="200" y2="136" stroke="#666" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <text x="200" y="152" font-size="11.5" fill="#666" text-anchor="middle">現在（說話這一刻）</text>
+
+  <!-- 截止點＝參考點 -->
+  <line x1="380" y1="102" x2="380" y2="134" stroke="#333" stroke-width="3.5"/>
+  <text x="380" y="152" font-size="12.5" fill="#333" text-anchor="middle">by next June</text>
+  <text x="380" y="168" font-size="11.5" fill="#666" text-anchor="middle">截止點＝參考點（未來）</text>
+
+  <!-- ══ 下排：兩種合法收尾 ══ -->
+  <text x="40" y="210" font-size="14" font-weight="bold" fill="#2e7d32">✅ 截止點之後怎麼收尾？兩種情境都合法</text>
+
+  <!-- 情境 A：繼續 -->
+  <line x1="40" y1="258" x2="628" y2="258" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="225" y="232" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">will have been teaching（一直教）</text>
+  <rect x="70" y="240" width="310" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+  <rect x="392" y="240" width="80" height="16" rx="3" fill="url(#hatch)" opacity="0.45" stroke="#2e7d32" stroke-dasharray="6 4"/>
+  <line x1="380" y1="244" x2="380" y2="272" stroke="#333" stroke-width="3.5"/>
+  <text x="380" y="288" font-size="11.5" fill="#666" text-anchor="middle">截止點</text>
+  <text x="485" y="252" font-size="12" font-weight="bold" fill="#2e7d32">繼續教下去</text>
+  <text x="485" y="268" font-size="11.5" fill="#666">情境：離退休還早</text>
+
+  <!-- 情境 B：剛好收工 -->
+  <line x1="40" y1="330" x2="628" y2="330" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="225" y="304" font-size="12" fill="#c2185b" text-anchor="middle" font-weight="bold">will have been teaching（一直教）</text>
+  <rect x="70" y="312" width="310" height="16" rx="3" fill="url(#hatch)" stroke="#e6007e"/>
+  <line x1="380" y1="316" x2="380" y2="344" stroke="#333" stroke-width="3.5"/>
+  <text x="380" y="360" font-size="11.5" fill="#666" text-anchor="middle">截止點</text>
+  <text x="440" y="324" font-size="12" font-weight="bold" fill="#2e7d32">教到那天收工——也合法</text>
+  <text x="440" y="340" font-size="11.5" fill="#666">By the time he retires（之後不教）</text>
+</svg>
