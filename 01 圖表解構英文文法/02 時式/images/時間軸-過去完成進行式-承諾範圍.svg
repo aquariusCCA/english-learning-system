@@ -8,7 +8,7 @@
       <line x1="0" y1="0" x2="0" y2="7" stroke="#e6007e" stroke-width="2"/>
     </pattern>
   </defs>
-  <text x="20" y="26" font-size="15" font-weight="bold" fill="#c2185b">過去完成進行式的承諾範圍：只到參考點為止</text>
+  <text x="20" y="26" font-size="15" font-weight="bold" fill="#c2185b">過去完成進行式保證到哪裡：只保證到參考點為止</text>
 
   <!-- ══ 上排：誤解模型 ══ -->
   <text x="40" y="58" font-size="14" font-weight="bold" fill="#c62828">❌ 誤解：以為「參考點之後還必須繼續做」</text>
@@ -31,11 +31,11 @@
   <text x="300" y="174" font-size="11.5" fill="#666" text-anchor="middle">參考點（過去簡單式）</text>
 
   <!-- ══ 下排：實際意思 ══ -->
-  <text x="40" y="212" font-size="14" font-weight="bold" fill="#2e7d32">✅ 實際：只承諾「到參考點為止一直開著」；之後鏡頭沒拍</text>
+  <text x="40" y="212" font-size="14" font-weight="bold" fill="#2e7d32">✅ 實際：只保證「到參考點為止動作一直在進行」；之後時態沒說</text>
 
-  <!-- 鏡頭外區（先畫，讓時間軸壓過去） -->
+  <!-- 時態沒說的範圍（先畫，讓時間軸壓過去） -->
   <rect x="312" y="258" width="240" height="44" rx="6" fill="#f5f5f5" stroke="#999" stroke-dasharray="5 4"/>
-  <text x="432" y="276" font-size="12.5" fill="#666" text-anchor="middle" font-weight="bold">鏡頭外</text>
+  <text x="432" y="276" font-size="12.5" fill="#666" text-anchor="middle" font-weight="bold">時態沒說的範圍</text>
   <text x="432" y="293" font-size="11.5" fill="#666" text-anchor="middle">繼續？停止？由情境決定</text>
 
   <line x1="40" y1="282" x2="628" y2="282" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
