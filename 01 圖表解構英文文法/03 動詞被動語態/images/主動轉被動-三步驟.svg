@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="'PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif">
+  <defs>
+    <marker id="swap" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e6007e"/>
+    </marker>
+  </defs>
+
+  <text x="20" y="28" font-size="15" font-weight="bold" fill="#c2185b">被動語態的轉換：主詞、受詞換位</text>
+
+  <!-- 主動列 -->
+  <text x="24" y="80" font-size="14" font-weight="bold" fill="#333">主動</text>
+  <rect x="80" y="52" width="150" height="46" rx="8" fill="#fde4f2" stroke="#e6007e"/>
+  <text x="155" y="76" font-size="15" font-weight="bold" fill="#c2185b" text-anchor="middle">主詞</text>
+  <text x="155" y="92" font-size="11" fill="#666" text-anchor="middle">名詞 A</text>
+  <text x="240" y="82" font-size="15" fill="#333" text-anchor="middle">＋</text>
+  <rect x="252" y="52" width="96" height="46" rx="8" fill="#fde4f2" stroke="#e6007e"/>
+  <text x="300" y="80" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">動詞</text>
+  <text x="358" y="82" font-size="15" fill="#333" text-anchor="middle">＋</text>
+  <rect x="370" y="52" width="150" height="46" rx="8" fill="#fde4f2" stroke="#e6007e"/>
+  <text x="445" y="76" font-size="15" font-weight="bold" fill="#c2185b" text-anchor="middle">受詞</text>
+  <text x="445" y="92" font-size="11" fill="#666" text-anchor="middle">名詞 B</text>
+
+  <!-- 換位箭頭 -->
+  <line x1="155" y1="104" x2="500" y2="194" stroke="#e6007e" stroke-width="1.6" marker-end="url(#swap)"/>
+  <line x1="445" y1="104" x2="162" y2="194" stroke="#e6007e" stroke-width="1.6" marker-end="url(#swap)"/>
+  <circle cx="314" cy="146" r="12" fill="#fff" stroke="#e6007e" stroke-width="1.5"/>
+  <text x="314" y="151" font-size="13" font-weight="bold" fill="#c2185b" text-anchor="middle">1</text>
+  <text x="314" y="182" font-size="12" fill="#c2185b" text-anchor="middle">位置對調</text>
+
+  <!-- 被動列 -->
+  <text x="24" y="228" font-size="14" font-weight="bold" fill="#333">被動</text>
+  <rect x="80" y="200" width="150" height="46" rx="8" fill="#fde4f2" stroke="#e6007e"/>
+  <text x="155" y="224" font-size="15" font-weight="bold" fill="#c2185b" text-anchor="middle">主詞</text>
+  <text x="155" y="240" font-size="11" fill="#666" text-anchor="middle">名詞 B</text>
+  <text x="240" y="230" font-size="15" fill="#333" text-anchor="middle">＋</text>
+  <rect x="252" y="200" width="150" height="46" rx="8" fill="#fde4f2" stroke="#e6007e"/>
+  <text x="327" y="230" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">be 動詞 ＋ p.p.</text>
+  <text x="412" y="230" font-size="15" fill="#333" text-anchor="middle">＋</text>
+  <rect x="424" y="200" width="170" height="46" rx="8" fill="#fde4f2" stroke="#e6007e"/>
+  <text x="509" y="222" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">by ＋ <tspan fill="#c2185b">受詞</tspan></text>
+  <text x="509" y="240" font-size="11" fill="#666" text-anchor="middle">名詞 A</text>
+  <circle cx="252" cy="200" r="11" fill="#fff" stroke="#e6007e" stroke-width="1.5"/>
+  <text x="252" y="205" font-size="13" font-weight="bold" fill="#c2185b" text-anchor="middle">2</text>
+  <circle cx="424" cy="200" r="11" fill="#fff" stroke="#e6007e" stroke-width="1.5"/>
+  <text x="424" y="205" font-size="13" font-weight="bold" fill="#c2185b" text-anchor="middle">3</text>
+
+  <line x1="20" y1="272" x2="700" y2="272" stroke="#ddd" stroke-width="1" stroke-dasharray="6 5"/>
+
+  <!-- 例句 -->
+  <text x="24" y="312" font-size="13" font-style="italic" fill="#999">Ex.</text>
+  <text x="60" y="312" font-size="17" fill="#333">Jim</text>
+  <text x="104" y="312" font-size="17" fill="#333">built</text>
+  <text x="160" y="312" font-size="17" fill="#333">the house.</text>
+  <text x="248" y="311" font-size="12" fill="#666">（主動）</text>
+  <line x1="58" y1="318" x2="89" y2="318" stroke="#888" stroke-width="1"/>
+  <line x1="102" y1="318" x2="137" y2="318" stroke="#888" stroke-width="1"/>
+  <line x1="158" y1="318" x2="236" y2="318" stroke="#888" stroke-width="1"/>
+  <text x="74" y="334" font-size="11" fill="#666" text-anchor="middle">S.</text>
+  <text x="120" y="334" font-size="11" fill="#666" text-anchor="middle">V.</text>
+  <text x="197" y="334" font-size="11" fill="#666" text-anchor="middle">O.</text>
+
+  <line x1="74" y1="342" x2="246" y2="376" stroke="#e6007e" stroke-width="1.4" marker-end="url(#swap)"/>
+  <line x1="197" y1="342" x2="104" y2="376" stroke="#e6007e" stroke-width="1.4" marker-end="url(#swap)"/>
+
+  <text x="60" y="396" font-size="17" fill="#333">The house</text>
+  <text x="152" y="396" font-size="17" fill="#333">was built</text>
+  <text x="230" y="396" font-size="17" fill="#333">by Jim.</text>
+  <text x="296" y="395" font-size="12" fill="#666">（被動）</text>
+  <line x1="58" y1="402" x2="142" y2="402" stroke="#888" stroke-width="1"/>
+  <line x1="150" y1="402" x2="220" y2="402" stroke="#888" stroke-width="1"/>
+  <line x1="228" y1="402" x2="282" y2="402" stroke="#888" stroke-width="1"/>
+  <text x="100" y="418" font-size="11" fill="#666" text-anchor="middle">原 O.</text>
+  <text x="185" y="418" font-size="11" fill="#666" text-anchor="middle">be 動詞 ＋ p.p.</text>
+  <text x="255" y="418" font-size="11" fill="#666" text-anchor="middle">原 S.</text>
+
+  <!-- 代名詞改受格 -->
+  <rect x="380" y="300" width="320" height="120" rx="10" fill="#fff6fb" stroke="#f4a6cd"/>
+  <text x="400" y="328" font-size="13" font-weight="bold" fill="#c2185b">原主詞是代名詞 → 改成受格</text>
+  <text x="400" y="360" font-size="15" fill="#333">He stole the money.</text>
+  <text x="400" y="392" font-size="15" fill="#333">→ The money was stolen by <tspan font-weight="bold" fill="#c2185b">him</tspan>.</text>
+</svg>
