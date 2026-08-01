@@ -15,6 +15,9 @@ Icon?
 # === Claude Code ===
 .claude/settings.local.json
 
+# === 課本截圖暫存夾（原始截圖不進版控，見 使用說明 2-1）===
+temp/
+
 # === 其他 ===
 *.tmp
 *~
