@@ -80,26 +80,6 @@ related:
 >
 > **為什麼錯：** 主動句的否定掛在動詞上（did**n't** change），受詞用 any 系列陪著它；一改被動，受詞升格成主詞，否定就得跟著搬進主詞裡，合併成 no 系列那一個字。搬完就**只剩主詞是否定的**，動詞恢復肯定，而且新主詞多半是單數，be 動詞別跟著原句的複數受詞走。
 
-## 🧠 自我測驗　💬 AI 補充
-
-> **讀完當天**作答一次，答完再看下方答案——檢查有沒有真的讀懂。
-> ⚠️ **不要每輪複習重做**：題目是寫死的，重做只會把這幾題背起來。後續複習改用現場生成的新題。
-
-- [ ] Q1：把 `They didn't invite anybody to the party.` 改成被動語態。
-- [ ] Q2：把 `The workers didn't finish any of the tasks.` 改成被動語態。
-- [ ] Q3：下面這句錯在哪？`Anything wasn't stolen from the store.`
-- [ ] Q4：為什麼被動句不能寫成 `Nothing wasn't decided at the meeting.`？
-
-<details>
-<summary>✅ 解答</summary>
-
-A1：**Nobody（No one）was invited to the party.**（not…anybody → Nobody／No one，動詞用肯定的 was）
-A2：**None of the tasks were finished.**（not…any of → None of；日常多用複數動詞，正式寫作也可用 was）
-A3：any 系列不能當否定句的主詞，而且否定不該還留在動詞上 → **Nothing was stolen from the store.**
-A4：主詞 Nothing 本身已經是否定，動詞再加 not 就成了雙重否定，意思反而變成「每件事都決定了」→ **Nothing was decided at the meeting.**
-
-</details>
-
 ## 🔗 延伸與對比
 - 被動的基本轉換三步驟（受詞升格成主詞）見 [[03 動詞被動語態/00 本章總覽|本章總覽]]——本節是這個動作碰到否定受詞時的特別處理。
 - 動詞本身怎麼隨時式變化見 [[01 各種時式的被動語態]]；否定詞放句首會不會引起倒裝，見 [[07 否定與倒裝/README|否定與倒裝]]（本節的 No…／Nothing… 是主詞，不倒裝）。
